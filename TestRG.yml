@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: 'Another Resource Group'
+
+Resources:
+  AnotherResourceGroup:
+    Type: "AWS::ResourceGroups::Group" 
+    Properties:
+      Name: "AnotherFDResourceGroup"
+      Description: "Another test resource group"
